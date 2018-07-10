@@ -16,11 +16,11 @@ namespace BigramApi {
 
         public IEnumerable<char> Next() {
             using (var stream = File.OpenText(_filepath)) { 
-                char[] buffer = new char[_bufferSize];
+                var buffer = new char[_bufferSize];
                 var length = stream.Read(buffer, 0, (int)_bufferSize);
 
                 while (length > 0) {
-                    for (int i = 0; i < length; i++) {
+                    for (var i = 0; i < length; i++) {
                         yield return buffer[i];
                     }
 

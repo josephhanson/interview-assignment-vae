@@ -16,14 +16,12 @@ namespace BigramApi {
                 _lastWord = _currentWord;
                 _currentWord = word.ToLower();
 
-                if (IsValid()) {
-                    yield return new Bigram {LeftWord = _lastWord, RightWord = _currentWord};
+                var bigram = new Bigram { LeftWord = _lastWord, RightWord = _currentWord };
+
+                if (bigram.IsValid()) {
+                    yield return bigram;
                 }
             }
-        }
-
-        private bool IsValid() {
-            return !string.IsNullOrEmpty(_lastWord) && !string.IsNullOrEmpty(_currentWord);
         }
     }
 }

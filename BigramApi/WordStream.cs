@@ -24,7 +24,7 @@ namespace BigramApi {
                 } else {
                     if (character == _separator) continue;
 
-                    if (Regex.IsMatch(character.ToString(),_wordRegex)) {
+                    if (Regex.IsMatch(character.ToString(), _wordRegex)) {
                         _buffer.Append(character);
                     }
                 }
