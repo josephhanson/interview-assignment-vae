@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EF8ABE99-05F7-4B03-835F-04F49FF406F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigramConsoleApplication", "BigramConsoleApplication\BigramConsoleApplication.csproj", "{6905358B-7840-4CAE-88ED-4B5683E2D91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigramApi.IntegrationTests", "BigramApi.IntgrationTests\BigramApi.IntegrationTests.csproj", "{D66AD0AF-8033-4409-B17A-250B96B07635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigramApi.UnitTests", "BigramApi.UnitTests\BigramApi.UnitTests.csproj", "{02E94B50-BACF-46FD-A046-00AB1E2FDA86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigramPresentation.UnitTests", "BigramPresentation.UnitTests\BigramPresentation.UnitTests.csproj", "{F5BFD804-0737-4093-886F-4E975A6AEE99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigramApi", "BigramApi\BigramApi.csproj", "{D0115398-9CDE-4DC2-9F89-50EF1A1058E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigramPresentation", "BigramPresentation\BigramPresentation.csproj", "{5B3A978E-5E7C-4B9B-8833-E37EA04B4AB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6905358B-7840-4CAE-88ED-4B5683E2D91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6905358B-7840-4CAE-88ED-4B5683E2D91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6905358B-7840-4CAE-88ED-4B5683E2D91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6905358B-7840-4CAE-88ED-4B5683E2D91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D66AD0AF-8033-4409-B17A-250B96B07635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66AD0AF-8033-4409-B17A-250B96B07635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66AD0AF-8033-4409-B17A-250B96B07635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66AD0AF-8033-4409-B17A-250B96B07635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E94B50-BACF-46FD-A046-00AB1E2FDA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E94B50-BACF-46FD-A046-00AB1E2FDA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E94B50-BACF-46FD-A046-00AB1E2FDA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E94B50-BACF-46FD-A046-00AB1E2FDA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5BFD804-0737-4093-886F-4E975A6AEE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5BFD804-0737-4093-886F-4E975A6AEE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5BFD804-0737-4093-886F-4E975A6AEE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5BFD804-0737-4093-886F-4E975A6AEE99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0115398-9CDE-4DC2-9F89-50EF1A1058E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0115398-9CDE-4DC2-9F89-50EF1A1058E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0115398-9CDE-4DC2-9F89-50EF1A1058E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0115398-9CDE-4DC2-9F89-50EF1A1058E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3A978E-5E7C-4B9B-8833-E37EA04B4AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3A978E-5E7C-4B9B-8833-E37EA04B4AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3A978E-5E7C-4B9B-8833-E37EA04B4AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3A978E-5E7C-4B9B-8833-E37EA04B4AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D66AD0AF-8033-4409-B17A-250B96B07635} = {EF8ABE99-05F7-4B03-835F-04F49FF406F1}
+		{02E94B50-BACF-46FD-A046-00AB1E2FDA86} = {EF8ABE99-05F7-4B03-835F-04F49FF406F1}
+		{F5BFD804-0737-4093-886F-4E975A6AEE99} = {EF8ABE99-05F7-4B03-835F-04F49FF406F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C86AE2-4387-437C-A55D-D1942A4459ED}
+	EndGlobalSection
+EndGlobal
