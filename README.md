@@ -38,12 +38,14 @@ Bigrams are composed of words, words are composed of characters.  These seem lik
 
 The classes are small, easy to understand, easy to replace/refactor (current code behind the interfaces is first pass code - e.g. the character stream). 
 
-It's flexible.  If your character source changes - AWS S3, Web API, etc., you drop in a new class.  If your user interface changes - e.g. Web, add a new project and reference the presentation layer (may need to refactor presentation layer - extract common functionality and reference frosm the two presentation layers).
+It's flexible.  If your character source changes - AWS S3, Web API, etc., you drop in a new class.  If your user interface changes - e.g. Web, add a new project and reference the api and presentation layers (may need to refactor presentation layer - extract common functionality and reference from the two presentation layers).
 
 ### Misc ###
 
 Didn't use a DI container or factories to configure startup classes so configuration changes to detail classes would not affect the use case class (program.cs).
 
 Didn't use the Parser library because there is only one argument.  If there were more than one and/or numerous optional variables I would reconsider.
+
+Would add more tests for production code.
  
 Note: the extent of my console application experience is limited, and only with one-off utility programs. 
